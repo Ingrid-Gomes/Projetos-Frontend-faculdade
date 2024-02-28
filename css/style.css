@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.navbar h1{
+    text-align: center;
+    font-family: japao;
+    font-size: 5rem;
+    background-color: rgba(29, 121, 106, 0.541);
+    color: #990505;
+    padding: 2vh 0; 
+}
+ 
+.dados{
+    display: flex;
+    margin: 16vh 10vw;
+}
+
+.dados img{
+    height: 40vh;
+    width: 10vw;
+    margin: 0  2vw;
+    border: 1vh #990505 solid;
+    border-radius: 0 2vw;
+
+}
+
+p{
+    display: flex;
+    text-align: center;
+    margin-top: 2vh;
+    align-items: center;
+    font-family: japao;
+    font-size: 2.5rem;
+}
+
+.footer{
+    display: flex;
+    background-color: rgba(29, 121, 106, 0.541);
+    padding: 6vh;  
+    margin-top: 10vh; 
+}
+
+@font-face {
+    font-family: fonte;
+    src: url(../fontes/Strengthen.ttf);
+
+}
+
+@font-face {
+    font-family: japao;
+    src: url(../fontes/Harukaze1.ttf);
+
+}
+
