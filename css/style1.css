@@ -1,0 +1,54 @@
+*{
+    margin: 0;  
+    background-color: antiquewhite;
+}
+
+/*navbar*/
+.navbar {
+    text-align: center;
+    justify-content: center; 
+
+}
+
+.navbar div{
+    background-color:rgba(224, 104, 208, 0.911);
+    height: 2vh;
+}
+
+.navbar .linhaInferior{
+    height: 0.5vh;
+}
+
+.navbar h1{
+    color: rgba(224, 104, 208, 0.911);
+    font-family: Hatolie;
+    font-size: 5vw;
+}
+
+/*main*/
+
+.principal .cima{
+    display: flex;
+    height: 40vh;
+    width: 20vw;
+    margin-left: 25vw;
+    margin-top: 5vh;
+}
+
+.principal .cima img{
+    margin-left: 2vw;
+
+}
+
+.principal .baixo{
+    display: flex;
+    height: 40vh;
+    width: 20vw;
+    margin-left: 30vw;
+}
+
+
+@font-face {
+    font-family: Hatolie;
+    src: url('../fontes/Projeto2/Hatolie.ttf' )
+  }
