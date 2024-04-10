@@ -26,26 +26,121 @@
 }
 
 /*main*/
-
-.principal .cima{
+/*Icones de navegação*/
+.container-icons-master{
     display: flex;
-    height: 40vh;
-    width: 20vw;
-    margin-left: 25vw;
-    margin-top: 5vh;
+    justify-content: space-between;
+    margin-top: 3vh;
 }
 
-.principal .cima img{
-    margin-left: 2vw;
-
-}
-
-.principal .baixo{
+.container-icons-master .container-icons{
     display: flex;
-    height: 40vh;
-    width: 20vw;
-    margin-left: 30vw;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 7vw;
 }
+
+.container-icons img{
+    background-color: rgb(247, 221, 187);
+    border-radius: 30%;
+    padding: 1.5vw;
+    height: 8vh;
+    margin-left: 0.5vw;
+    transition: height 0.5s;
+}
+
+.container-icons img:hover{
+    height: 10vh;
+}
+
+.container-icons p{
+    font-size: 2.7vh;
+    
+}
+
+/*Imagens*/
+.container-anuncios{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.container-anuncios .cima{
+    display: flex;
+    justify-content: center;
+}
+
+.container-anuncios .cima a{
+    background-color: rgba(0, 0, 0, 0.068);
+    border-radius: 25px;
+    padding: 3vw;
+    margin: 0 5vw 0 5vw;
+}
+
+.container-anuncios .cima img{
+    justify-content: center;
+    border-radius: 25px;
+    height: 20vh;
+    margin-top: -2vh;
+    transition: height 0.5s;
+}
+
+.container-anuncios .cima img:hover{
+    margin-top: 0;
+    height: 30vh;
+}
+
+.container-anuncios .baixo{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0 0 0;
+}
+
+.container-anuncios .baixo a{
+    background-color: rgba(0, 0, 0, 0.068);
+    border-radius: 25px;
+    padding: 3vw;
+    margin: 0 5vw 0 5vw;
+}
+
+.container-anuncios .baixo img{
+    background-color: rgba(252, 252, 252, 0);
+    border-radius: 25px;
+    height: 20vh;
+    margin-top: -2vh;
+    transition: height 0.5s;
+}
+
+.container-anuncios .baixo img:hover{
+    margin-top: 0;
+    height: 30vh;
+}
+
+.container-anuncios .baixo-texto{
+    display: flex;
+    justify-content: center;
+}
+
+.container-anuncios .cima-texto{
+    display: flex;
+    justify-content: center;
+}
+
+.container-anuncios .texto{
+    background-color: rgb(253, 163, 163); 
+    margin: 0 5.5vw 0 5.5vw;
+}
+
+.container-anuncios .texto h1{
+    text-align: center;
+    font-size: 2.7vh;
+}
+
+.container-anuncios .texto p{
+    text-align: center;
+    font-size: 1.5vh;
+}
+
 
 
 @font-face {
